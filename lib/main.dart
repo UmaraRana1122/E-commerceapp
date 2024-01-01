@@ -1,10 +1,8 @@
-import 'package:curvedesign/E-commerceApp/NavigationScreen.dart';
 import 'package:curvedesign/E-commerceApp/ProductScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-import 'E-commerceApp/HomeScreen.dart';
 
 void main() {
   runApp(const MyApp());

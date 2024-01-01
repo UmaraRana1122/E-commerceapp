@@ -13,6 +13,8 @@ class ProductScreen extends StatelessWidget {
     "assets/images/image4.jpg",
   ];
 
+   ProductScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
