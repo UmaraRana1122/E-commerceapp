@@ -1,7 +1,9 @@
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:curvedesign/E-commerceApp/CartScreen.dart';
 import 'package:curvedesign/E-commerceApp/FavouriteScreen.dart';
+import 'package:curvedesign/E-commerceApp/HomeScreen.dart';
 import 'package:curvedesign/E-commerceApp/LoginScreen.dart';
+import 'package:curvedesign/E-commerceApp/ProductScreen.dart';
 import 'package:curvedesign/E-commerceApp/ProfileScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,8 +17,8 @@ class NavigationScreen extends StatefulWidget {
 class _NavigationScreenState extends State<NavigationScreen> {
   int pageIndex = 0;
   List<Widget> pages = [
-    LoginScreen(),
-    CartScreen(),
+    HomeScreen(),
+    ProductScreen(),
     FavouriteScreen(),
     ProfileScreen()
   ];
