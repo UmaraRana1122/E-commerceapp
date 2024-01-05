@@ -1,3 +1,4 @@
+import 'package:curvedesign/E-commerceApp/CartScreen.dart';
 import 'package:curvedesign/E-commerceApp/NavigationScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, screenType) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: NavigationScreen(),
+          home: CartScreen(),
         );
       },
     );
