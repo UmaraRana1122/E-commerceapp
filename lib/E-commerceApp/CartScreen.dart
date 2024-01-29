@@ -43,6 +43,8 @@ class _CartScreenState extends State<CartScreen> {
                 SizedBox(
                   height: 60.h,
                   child: ListView.builder(
+                      keyboardDismissBehavior:
+                          ScrollViewKeyboardDismissBehavior.onDrag,
                       itemCount: imageList.length,
                       shrinkWrap: true,
                       scrollDirection: Axis.vertical,
